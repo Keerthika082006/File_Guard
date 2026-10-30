@@ -1,25 +1,28 @@
 {
   "report_title": "FileGuard Integrity Report",
-  "generated_at": "2026-06-25 09:50:01",
+  "generated_at": "2026-10-30 19:21:42",
   "summary": {
     "total_files_scanned": 3,
-    "unchanged_files": 3,
-    "modified_files": 0,
+    "unchanged_files": 2,
+    "modified_files": 1,
     "new_files": 0,
     "deleted_files": 0,
-    "severity": "None"
+    "severity": "Medium"
   },
   "details": {
     "unchanged": [
       "app_settings.txt",
-      "user_data.txt",
+      "user_data.txt"
+    ],
+    "modified": [
       "sample_config.txt"
     ],
-    "modified": [],
     "new_files": [],
     "deleted": []
   },
   "recommended_actions": [
+    "Review the modified files for unauthorized changes",
+    "Compare modified files with known backups",
     "Continue monitoring sensitive directories",
     "Maintain secure backups of critical files",
     "Investigate unexpected file system changes"

@@ -18,3 +18,4 @@ AUTO_REPORT = true
 MONITORED_DIR = "monitored_files"
 REPORT_DIR = "reports"
 BASELINE_FILE = "baseline.json"
+This file has been modified by an unauthorized user.
